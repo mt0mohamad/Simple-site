@@ -1,0 +1,158 @@
+﻿
+#top {
+    width:1400px;
+    height: 1700px;
+    background-color:rgb(0, 0, 255);
+    border-radius:4px;
+    box-shadow:4px 4px 4px black;
+    margin:auto;
+}
+
+#header {
+    width:1400px;
+    height:170px;
+    background-color:rgb(43, 43, 43);
+    border-radius:8px;
+    color:coral;
+    font-size:110px;
+    text-align:center;
+}
+
+
+a,a:hover{
+    text-decoration: none;
+}
+
+
+.main-menu{
+    height:70px;
+    background-color:indigo;
+    text-align: center;
+}
+
+.main-menu .menu-items ul li{
+    display:inline-block;
+    margin: 0;
+    margin-left:12px;
+    position: relative;
+}
+
+.main-menu .menu-items ul li a{
+    padding:25px 0;
+    display: inline-block;
+    color: darksalmon;
+}
+
+
+.main-menu .menu-items ul li a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.main-menu .menu-items ul li > ul{
+    position: absolute;
+    width: 180px;
+    background-color:indigo;
+    right:0;
+    opacity:0;
+    visibility: hidden;
+    transition:all 0.3s ease;
+    z-index: 20;
+}
+
+
+.main-menu .menu-items ul li:hover > ul{
+    opacity:1;
+    visibility: visible;
+    transition:all 0.3s ease;
+    padding: 10px;
+}
+
+.main-menu .menu-items ul li ul li{
+    display:block;
+    width:100%;
+}
+
+.main-menu .menu-items ul li ul li a{
+    display:block;
+    padding: 10px 18px 10px 8px;
+    position: relative;
+}
+
+.main-menu .menu-items ul li ul li a:before{
+    content:"\F104";
+    font-family: FontAwesome;
+    position: absolute;
+    top:11px;
+    right:5px;
+    font-size:12px;
+}
+
+.main-menu .menu-items ul li ul li ul{
+    top:0;
+    right:100%;
+}
+
+/*منو بالا است*/
+
+#tap{
+	margin-top: 50px;
+	margin-right:200px;
+	margin-left:200px;
+	width : 1000px;
+	height : 1000px;
+	background-color: rgba(107, 107, 107, 0.397);
+    text-align: center;
+}
+
+.top .tap ,p{
+    color: rgb(119, 0, 255);
+    font-family: Tahoma;
+}
+.matn{
+    text-align: right;
+}
+.top .tap .matn ,b {
+    text-decoration: underline;
+}
+.top .tap .matn  ,i .ie{
+    text-decoration: overline;
+}
+.top .tap .matn ,b1{
+    text-decoration: line-through;
+}
+.top .tap .matn ,mark{
+    background-color: red;
+}
+#wraper{
+    text-align: ltr;
+    font-size: 24px;
+    /*background-color: rgb(98, 149, 167);*/
+    float: ltr;
+}
+.box{
+    width: 120px;
+    height: 120px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow; 
+}
+#form{
+    text-align: center;
+    border: 100px ,200px;
+}
+/* 
+{
+    font-weight: 900;
+    font-style: italic;
+    line-height: 150%;
+    word-spacing: -3px;
+    letter-spacing: 12px;
+}
+*/
+
